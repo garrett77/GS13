@@ -1453,13 +1453,21 @@
 "aCp" = (/obj/structure/cable/white{icon_state = "4-8"},/obj/structure/cable/white{icon_state = "1-8"},/obj/structure/cable/white{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plating,/area/maintenance/port)
 "aCq" = (/obj/structure/closet/emcloset,/turf/open/floor/plasteel,/area/maintenance/port)
 "aCr" = (/obj/structure/cable/white{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/machinery/door/airlock/security/glass{name = "Security Checkpoint"; req_access_txt = "63"},/turf/open/floor/plasteel,/area/security/checkpoint)
-"aCs" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/light/small,/turf/open/floor/engine/o2,/area/engine/atmos)
+"aCs" = (/obj/machinery/light/small,/obj/machinery/atmospherics/miner/oxygen,/obj/machinery/portable_atmospherics/canister/oxygen,/turf/open/floor/engine/o2,/area/engine/atmos)
 "aCt" = (/obj/machinery/door/airlock/maintenance_hatch{name = "Maintenance Hatch"; req_access_txt = "12"},/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable/white{icon_state = "4-8"},/turf/open/floor/plating,/area/maintenance/starboard/aft)
+<<<<<<< Updated upstream
 "aCu" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/science/research)
 "aCv" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/effect/turf_decal/delivery,/turf/open/floor/plasteel,/area/maintenance/starboard/aft)
 "aCw" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/obj/machinery/light/small,/turf/open/floor/engine/n2,/area/engine/atmos)
 "aCx" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/structure/cable/white{icon_state = "1-2"},/obj/effect/turf_decal/delivery,/turf/open/floor/plasteel,/area/maintenance/starboard/aft)
 "aCy" = (/obj/machinery/door/airlock/research{name = "Research Division Access"; req_access_txt = "47"},/turf/open/floor/plasteel,/area/maintenance/starboard/aft)
+=======
+"aCu" = (/obj/machinery/door/airlock/maintenance_hatch{name = "Maintenance Hatch"; req_access_txt = "12"},/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable/white{icon_state = "4-8"},/obj/effect/mapping_helpers/airlock/cyclelink_helper{dir = 4},/turf/open/floor/plating,/area/maintenance/starboard/aft)
+"aCv" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable/white{icon_state = "4-8"},/obj/effect/turf_decal/delivery,/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 2},/turf/open/floor/plasteel,/area/maintenance/starboard/aft)
+"aCw" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/obj/machinery/light/small,/obj/machinery/atmospherics/miner/nitrogen,/turf/open/floor/engine/n2,/area/engine/atmos)
+"aCx" = (/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,/obj/structure/cable/white{icon_state = "4-8"},/obj/structure/cable/white{icon_state = "1-2"},/obj/structure/cable/white{icon_state = "1-8"},/obj/structure/cable/white{icon_state = "2-4"},/obj/effect/turf_decal/delivery,/obj/effect/turf_decal/stripes/line{dir = 1},/obj/effect/turf_decal/stripes/line{dir = 2},/turf/open/floor/plasteel,/area/maintenance/starboard/aft)
+"aCy" = (/obj/machinery/door/airlock/maintenance_hatch{name = "Maintenance Hatch"; req_access_txt = "12"},/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 4},/obj/structure/cable/white{icon_state = "4-8"},/obj/effect/mapping_helpers/airlock/cyclelink_helper{dir = 8},/turf/open/floor/plating,/area/maintenance/starboard/aft)
+>>>>>>> Stashed changes
 "aCz" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 1},/obj/machinery/portable_atmospherics/scrubber,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/tile/red{dir = 4},/turf/open/floor/plasteel/cafeteria,/area/engine/atmos)
 "aCA" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 1},/obj/machinery/portable_atmospherics/pump,/obj/machinery/light,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/tile/blue{dir = 8},/turf/open/floor/plasteel/white/corner,/area/engine/atmos)
 "aCB" = (/obj/machinery/door/airlock/maintenance_hatch{name = "Maintenance Hatch"; req_access_txt = "12"},/obj/machinery/atmospherics/pipe/simple/supply/hidden,/obj/structure/cable/white{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/open/floor/plating,/area/maintenance/port)
@@ -3243,8 +3251,12 @@
 "kac" = (/obj/effect/spawner/structure/window/reinforced,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plating,/area/medical/medbay/zone3)
 "kag" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/open/floor/plating/asteroid/airless,/area/asteroid/nearstation)
 "kaA" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 1},/obj/machinery/portable_atmospherics/scrubber,/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/tile/red{dir = 8},/turf/open/floor/plasteel/cafeteria,/area/engine/atmos)
+<<<<<<< Updated upstream
 "kcH" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 10},/turf/open/floor/plasteel/white,/area/medical/virology)
 "kit" = (/obj/machinery/portable_atmospherics/canister/toxins,/obj/machinery/light/small{dir = 1},/turf/open/floor/engine/plasma,/area/engine/atmos)
+=======
+"kit" = (/obj/machinery/portable_atmospherics/canister/toxins,/obj/machinery/light/small{dir = 1},/obj/machinery/atmospherics/miner/toxins,/turf/open/floor/engine/plasma,/area/engine/atmos)
+>>>>>>> Stashed changes
 "kiw" = (/obj/machinery/atmospherics/pipe/simple/general/visible,/obj/structure/cable{icon_state = "4-8"},/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plasteel,/area/engine/atmos)
 "kpz" = (/obj/effect/turf_decal/tile/neutral{dir = 1},/obj/effect/turf_decal/tile/neutral,/obj/effect/turf_decal/tile/neutral{dir = 4},/obj/effect/turf_decal/tile/neutral{dir = 8},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plasteel/dark,/area/library)
 "kpW" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/obj/structure/cable/white{icon_state = "1-2"},/turf/open/floor/plasteel/white,/area/medical/virology)
